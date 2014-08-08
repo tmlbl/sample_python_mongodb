@@ -22,3 +22,5 @@ script:
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
 commit_container: beshippable/test
+
+build_timeout: 800
